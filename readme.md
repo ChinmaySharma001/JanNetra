@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ Rajniti
+# 🏛️ JanNetra
 
 **Open-source Indian politician data platform — powered by AI enrichment**
 
