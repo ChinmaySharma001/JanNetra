@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/.next",
-  "root": "frontend"
+  "root": "frontend",
+  "ignoreCommand": "git diff --quiet HEAD~1 HEAD -- frontend/"
 }
