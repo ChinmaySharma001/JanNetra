@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rajniti"
+name = "jannetra"
 version = "1.0.0"
-description = "Rajniti Election Data API"
+description = "JanNetra Election Data API"
 authors = [{name = "Your Name", email = "your.email@example.com"}]
 readme = "readme.md"
 requires-python = ">=3.11"
@@ -45,6 +45,9 @@ profile = "black"
 multi_line_output = 3
 line_length = 88
 known_first_party = ["app"]
+
+[project.scripts]
+app = "run:main"
 
 # NOTE: flake8 config lives in .flake8 (flake8 doesn't read pyproject.toml)
 

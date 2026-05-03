@@ -1,5 +1,5 @@
 """
-Development server entry point for the Rajniti application.
+Development server entry point for the JanNetra application.
 """
 import logging
 import os
@@ -19,7 +19,7 @@ def main():
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
-    logger = logging.getLogger("rajniti.server")
+    logger = logging.getLogger("jannetra.server")
 
     # Check environment variables on startup
     check_environment_variables()
@@ -35,7 +35,7 @@ def main():
     port = int(os.getenv("FLASK_PORT", "8000"))
     debug = os.getenv("FLASK_DEBUG", "True").lower() == "true"
 
-    logger.info(f"Starting Rajniti development server on {host}:{port}")
+    logger.info(f"Starting JanNetra development server on {host}:{port}")
     logger.info(f"Debug mode: {debug}, Environment: {env}")
 
     # Run the application
