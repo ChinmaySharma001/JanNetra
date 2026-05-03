@@ -337,7 +337,7 @@ jobs:
         with:
           context: .
           push: false
-          tags: rajniti-api:test
+          tags: jannetra-api:test
           cache-from: type=gha
           cache-to: type=gha,mode=max
 

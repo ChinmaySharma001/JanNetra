@@ -1,5 +1,5 @@
 """
-Flask application factory for Rajniti.
+Flask application factory for JanNetra.
 """
 
 import logging
@@ -39,7 +39,7 @@ def create_app() -> Flask:
         return jsonify(
             {
                 "success": True,
-                "message": "Rajniti API is running",
+                "message": "JanNetra API is running",
                 "health": "/api/v1/health",
             }
         )

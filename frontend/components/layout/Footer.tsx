@@ -29,9 +29,9 @@ export default function Footer() {
                         aria-label='Footer links'
                     >
                         <Link
-                            href='https://github.com/imsks/rajniti'
+                            href='https://github.com/ChinmaySharma001/JanNetra'
                             external
-                            onClick={() => trackEvent('nav_click', { link_text: 'GitHub', link_url: 'https://github.com/imsks/rajniti', nav_section: 'footer' })}
+                            onClick={() => trackEvent('nav_click', { link_text: 'GitHub', link_url: 'https://github.com/ChinmaySharma001/JanNetra', nav_section: 'footer' })}
                             className='text-gray-400 hover:text-white transition-colors text-sm'
                         >
                             GitHub

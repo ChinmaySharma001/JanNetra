@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 _API = "https://en.wikipedia.org/w/api.php"
 _REST = "https://en.wikipedia.org/api/rest_v1"
 _HEADERS = {
-    "User-Agent": "Rajniti/1.0 (https://github.com/rajniti; bot@rajniti.dev)",
+    "User-Agent": "JanNetra/1.0 (https://github.com/jannetra; bot@jannetra.dev)",
     "Accept": "application/json",
 }
 

@@ -28,7 +28,7 @@ FailoverChatLLM = FreeTierLLM
 
 
 class AgentLLMFactory:
-    """Factory that builds a FreeTierLLM from a config list (Rajniti-specific defaults)."""
+    """Factory that builds a FreeTierLLM from a config list (JanNetra-specific defaults)."""
 
     def __init__(self, config_list: Optional[list[dict[str, Any]]] = None):
         self.config_list = config_list or PROVIDER_CONFIGS

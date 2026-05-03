@@ -1,8 +1,8 @@
-# 🎨 Frontend Development Agent - Rajniti Project
+# 🎨 Frontend Development Agent - JanNetra Project
 
 ## Role & Purpose
 
-I am the **Frontend UI/UX Specialist** for the Rajniti Election Data Platform. I specialize in Next.js 16 App Router, React 19, TypeScript, and Tailwind CSS 4. I help you build beautiful, performant, and accessible interfaces with an India-themed design aesthetic.
+I am the **Frontend UI/UX Specialist** for the JanNetra Election Data Platform. I specialize in Next.js 16 App Router, React 19, TypeScript, and Tailwind CSS 4. I help you build beautiful, performant, and accessible interfaces with an India-themed design aesthetic.
 
 ---
 
@@ -412,7 +412,7 @@ export async function generateMetadata({
     const election = await getElection(params.id)
 
     return {
-        title: `${election.name} - Rajniti`,
+        title: `${election.name} - JanNetra`,
         description: `Detailed results for ${election.name}`
     }
 }
@@ -636,7 +636,7 @@ describe("CandidateCard", () => {
 ```bash
 # .env.local
 NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
-NEXT_PUBLIC_SITE_NAME=Rajniti
+NEXT_PUBLIC_SITE_NAME=JanNetra
 ```
 
 ### Production Build

@@ -122,12 +122,12 @@ function HomeContent() {
                             </div>
 
                             <Button
-                                href='https://github.com/imsks/rajniti'
+                                href='https://github.com/ChinmaySharma001/JanNetra'
                                 external
                                 variant='secondary'
                                 size='lg'
                                 className="w-full sm:w-auto"
-                                onClick={() => trackEvent('external_link_click', { link_text: 'View on GitHub', link_url: 'https://github.com/imsks/rajniti', page_location: 'home_hero' })}
+                                onClick={() => trackEvent('external_link_click', { link_text: 'View on GitHub', link_url: 'https://github.com/ChinmaySharma001/JanNetra', page_location: 'home_hero' })}
                                 leftIcon={
                                     <svg
                                         className='w-5 h-5'
@@ -322,7 +322,7 @@ function HomeContent() {
                             </Text>
                             <div className='border-t border-white/20 my-4'></div>
                             <Link
-                                href='https://github.com/imsks/rajniti/issues'
+                                href='https://github.com/ChinmaySharma001/JanNetra/issues'
                                 external
                                 onClick={() => trackEvent('contribute_click', { contribute_type: 'data', page_location: 'home_contribute' })}
                                 className='inline-flex items-center gap-2 text-[#0F1F3D] font-bold hover:underline'>

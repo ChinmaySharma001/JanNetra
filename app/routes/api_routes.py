@@ -1,5 +1,5 @@
 """
-API Routes for Rajniti — Politician-centric design.
+API Routes for JanNetra — Politician-centric design.
 
 All election/party/constituency data is embedded in the Politician model,
 so every route revolves around politicians.
@@ -264,7 +264,7 @@ def api_root():
     return jsonify(
         {
             "success": True,
-            "message": "Welcome to Rajniti API",
+            "message": "Welcome to JanNetra API",
             "version": "2.0.0",
             "endpoints": {
                 "politicians": "/api/v1/politicians",
@@ -291,7 +291,7 @@ def health_check():
     return jsonify(
         {
             "success": True,
-            "message": "Rajniti API is healthy",
+            "message": "JanNetra API is healthy",
             "version": "2.0.0",
             "database": {
                 "connected": db_ok,

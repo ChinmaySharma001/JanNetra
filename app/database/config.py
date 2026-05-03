@@ -58,7 +58,7 @@ def get_database_url(required: bool = False) -> str:
         If `required=False` and DATABASE_URL is missing, returns an empty string.
 
     Examples:
-        Local: postgresql://user:password@localhost:5432/rajniti
+        Local: postgresql://user:password@localhost:5432/jannetra
         Supabase: postgresql://postgres.[project-ref]:[password]@aws-0-[region].pooler.supabase.com:6543/postgres
     """
     database_url = os.getenv("DATABASE_URL")

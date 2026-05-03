@@ -1,4 +1,4 @@
-"""Route blueprints for the Rajniti application."""
+"""Route blueprints for the JanNetra application."""
 
 from .api_routes import api_bp
 

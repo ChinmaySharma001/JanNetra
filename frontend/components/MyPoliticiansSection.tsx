@@ -17,7 +17,7 @@ import { getPartyInitial } from "@/lib/politicianUtils"
 import type { Politician } from "@/types/politician"
 
 const GITHUB_ISSUE_URL =
-    "https://github.com/imsks/rajniti/issues/new?title=Add+MLA+MP+for+my+area&body=Request+to+add+MLA+%2F+MP+for+my+constituency.%0A%0APlease+share+constituency+name+or+pincode+if+known%3A+"
+    "https://github.com/ChinmaySharma001/JanNetra/issues/new?title=Add+MLA+MP+for+my+area&body=Request+to+add+MLA+%2F+MP+for+my+constituency.%0A%0APlease+share+constituency+name+or+pincode+if+known%3A+"
 
 interface MyPoliticiansSectionProps {
     allPoliticians: Politician[]
@@ -180,7 +180,7 @@ export default function MyPoliticiansSection({
                                     </a>
                                     <span className='text-gray-300 text-sm'>|</span>
                                     <a
-                                        href='https://github.com/imsks/rajniti#-contributing-with-ai'
+                                        href='https://github.com/ChinmaySharma001/JanNetra#-contributing-with-ai'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='text-gray-500 hover:text-orange-600 hover:underline text-xs'
@@ -293,7 +293,7 @@ export default function MyPoliticiansSection({
                 <p className='text-xs text-gray-500 dark:text-gray-400 mt-3'>
                     Can&apos;t find your MLA? Data for some states is still being added.{" "}
                     <a
-                        href='https://github.com/imsks/rajniti#-contributing-with-ai'
+                        href='https://github.com/ChinmaySharma001/JanNetra#-contributing-with-ai'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-orange-600 hover:underline'

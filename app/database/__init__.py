@@ -1,5 +1,5 @@
 """
-Database package for Rajniti Election Data API.
+Database package for JanNetra Election Data API.
 
 Only the User table is stored in the database.
 All election data (candidates, parties, constituencies) is served from JSON files.

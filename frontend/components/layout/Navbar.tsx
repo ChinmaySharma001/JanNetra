@@ -42,11 +42,11 @@ export default function Navbar({
                                     Politicians
                                 </Link>
                                 <Link
-                                    href='https://github.com/imsks/rajniti/issues/new'
+                                    href='https://github.com/ChinmaySharma001/JanNetra/issues/new'
                                     variant='nav'
                                     target='_blank'
                                     onClick={() => {
-                                        trackNav('Found a Bug?', 'https://github.com/imsks/rajniti/issues/new')
+                                        trackNav('Found a Bug?', 'https://github.com/ChinmaySharma001/JanNetra/issues/new')
                                         trackEvent('contribute_click', { contribute_type: 'bug', page_location: 'navbar' })
                                     }}>
                                     Found a Bug?
@@ -63,13 +63,7 @@ export default function Navbar({
                                 <Link href='#contribute' variant='nav' onClick={() => trackNav('Contribute', '#contribute')}>
                                     Contribute
                                 </Link>
-                                <Link
-                                    href='https://chat.whatsapp.com/IceA98FSHHuDmXOwv8WH7v'
-                                    external
-                                    variant='nav'
-                                    onClick={() => trackEvent('external_link_click', { link_text: 'Join Community', link_url: 'https://chat.whatsapp.com/IceA98FSHHuDmXOwv8WH7v', page_location: 'navbar' })}>
-                                    Join Community
-                                </Link>
+                               
                             </nav>
                         )}
 

@@ -1,5 +1,5 @@
 """
-BaseAgent — shared foundation for every Rajniti agent.
+BaseAgent — shared foundation for every JanNetra agent.
 
 Provides:
   * LLM invocation (with FreeTierLLM fallback chain)
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 
 
 class BaseAgent:
-    """Base class inherited by all Rajniti agents."""
+    """Base class inherited by all JanNetra agents."""
 
     def __init__(self) -> None:
         self.llm = get_agent_llm()
