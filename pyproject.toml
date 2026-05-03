@@ -49,6 +49,9 @@ known_first_party = ["app"]
 [project.scripts]
 app = "run:main"
 
+[tool.setuptools]
+packages = ["app"]
+
 # NOTE: flake8 config lives in .flake8 (flake8 doesn't read pyproject.toml)
 
 [tool.pytest.ini_options]
