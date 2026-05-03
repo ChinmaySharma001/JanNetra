@@ -291,7 +291,7 @@ make format            # auto-format with Black + isort
 ## 📂 Project Structure
 
 ```
-Rajniti/
+JanNetra/
 ├── app/
 │   ├── agents/            # LLM-based enrichment agents
 │   ├── config/            # Agent & provider configuration
